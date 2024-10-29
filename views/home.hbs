@@ -1,0 +1,76 @@
+<style>
+    .main{
+        margin: 0px;
+        height: 100vh;
+        border: solid rgb(0, 0, 0) 0px;
+        background-image: url("https://images6.alphacoders.com/110/thumb-1920-1100113.jpg");
+        background-size: cover;
+    }
+    nav{
+        background-color: rgb(30, 32, 32);
+        height: 78px;
+       
+    }
+
+    .name{
+         color: white;
+
+    }
+    .name:hover{
+        color: brown;
+    }
+
+
+    .mul{
+        background-color: red;
+        color: white;
+    }
+    .mul:hover{
+        background-color: green;
+        color: white;
+    }
+
+   
+</style>
+  <div class="main">
+
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand name">S.H.I.E.L.D</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link name" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link name">Heroes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle name"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            THREAT LEVEL
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item ">Avengers Level</a></li>
+            <li><a class="dropdown-item ">Universe Level</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item mul">Multiverse Level</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link name" aria-disabled="true">ASSEMBLE</a>
+        </li>
+      </ul>
+      
+     <form class="d-flex" action="/logout" method="GET">
+    <button class="btn btn-outline-danger" type="submit">LogOut</button>
+
+      </form>
+    </div>
+  </div>
+
+
+
+  </div>

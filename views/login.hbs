@@ -1,0 +1,71 @@
+
+<style>
+
+  h1{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+  }
+
+  .c1{
+    
+    margin: 0px;
+    height: 100vh;
+    border: solid rgb(0, 0, 0) 0.1px;
+   
+    background-image: url("https://images4.alphacoders.com/270/thumb-1920-270906.jpg");
+  }
+
+  .c2{
+    height: 550px;
+    width: 600px;
+    background-color:rgba(35, 117, 194, 0.6);
+    border-radius: 18px;
+    position: relative;
+    
+    
+
+  }
+
+  .pa{
+    padding-top: 90px;
+  }
+
+  .error{
+  
+    position: absolute;
+    left: 135px;
+    top: 35px;
+    
+    
+  }
+
+
+
+  
+ 
+</style>
+
+<div
+  class="container-fluid c1 "
+>
+<h1>S.H.I.E.L.D</h1>
+<div class="container c2 ">
+<h2 class=" text-center error">{{msg}}</h2>
+<form action="/verify" method="post" class="pa">
+
+<div class="login">
+  <div class="login-triangle"></div>
+  
+  <h2 class="login-header">Log in</h2>
+
+  <form class="login-container">
+    <p><input type="text" placeholder="User name" name="username" required></p>
+    <p><input type="password" placeholder="Password" name="password" required></p>
+    <p><input type="submit" value="Log in"></p>
+  </form>
+</div>
+</div>
+ 
+</div>
+</form>
